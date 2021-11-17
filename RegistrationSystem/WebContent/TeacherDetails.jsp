@@ -13,9 +13,9 @@
 <%@ page import="java.sql.ResultSet" %>  
 <%@ page import="java.sql.Statement" %>   
 
-<h1>Books of
+<h1> List of
 <%= request.getParameter("genrename") %>
-
+Books
 </h1>
 
 <%		

@@ -13,7 +13,10 @@
 <%@ page import="java.sql.ResultSet" %>  
 <%@ page import="java.sql.Statement" %>   
 
-<h1>List of Genres</h1>
+<h1>List of Languages</h1>
+<h3>Find a book in a language that suits you!</h3>
+
+<h1 style="color:black;font-size:22px;">
 
 <%		
 

@@ -13,9 +13,8 @@
 <%@ page import="java.sql.ResultSet" %>  
 <%@ page import="java.sql.Statement" %>   
 
-<h1>Books of
+<h1>Books in
 <%= request.getParameter("language") %>
-
 </h1>
 
 <%		

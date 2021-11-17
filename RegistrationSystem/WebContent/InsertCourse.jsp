@@ -43,7 +43,7 @@
        </tr>  
               <tr>
         <td>Summary 
-        <td><input type="text" name="Summary" style="width:300px; height:100px;></td>
+        <td><input type="text" name="Summary" style="width:300px; height:100px"></td>
       </tr>
                        <tr>
         <td>Pages

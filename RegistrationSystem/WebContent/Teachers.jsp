@@ -15,6 +15,9 @@
 
 <h1>List of Genres</h1>
 
+<h1 style="color:black;font-size:22px;">
+
+
 <%		
 
 Connection c = null;
@@ -69,6 +72,6 @@ try {
 }
 		
 %>
-		
+</h1> 		
 <body>
 </html>
