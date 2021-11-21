@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Recently added books</title>
 </head>
-<body>  
+<body> 
 
 <%@ page import="java.sql.Connection" %> 
 <%@ page import="java.sql.DriverManager" %>  
