@@ -22,35 +22,36 @@
 <%@ page import="java.sql.ResultSet" %>  
 <%@ page import="java.sql.Statement" %>   
 
-<h1>Please Insert a Book!</h1>
+<h1>Please insert a new Book!</h1>
 
+<h4 style="color:black;font-size:18px;">
 
 <form action="http://localhost:8080/RegistrationSystem/CourseInserted.jsp" method="get">
     <table>
       <tr>
-        <td>Book title      
-        <td><input type="text" name="Title"></td>
+        <td>Book title<font color="red">*</font>     
+        <td><input type="text" name="Title" required></td>
       </tr>
          
       <tr>
            <tr>
-        <td>Author 
-        <td><input type="text" name="Author"></td>
+        <td>Author<font color="red">*</font>    
+        <td><input type="text" name="Author" required></td>
       </tr>
             <tr>
-                <td>Published date</td>
+                <td>Publish date<font color="red">*</font></td>
                 <td><input type="text" name="startDate" id="datepicker"></td>
        </tr>  
               <tr>
-        <td>Summary 
-        <td><input type="text" name="Summary" style="width:300px; height:100px"></td>
+        <td>Summary<font color="red">*</font>   
+        <td><input type="text" name="Summary" style="width:300px; height:100px" required></td>
       </tr>
                        <tr>
         <td>Pages
         <td><input type="number" name="Pages"></td>
       </tr>
                        <tr>
-        <td>Additionalinfo 
+        <td>Additional info 
         <td><input type="text" name="Additionalinfo"></td>
       </tr>
                        <tr>
@@ -61,10 +62,9 @@
         <td>
         <select id="LanguageSelect" name="Language">
 
-        
+    
   <%		
 
-  
 
 Connection c = null;
      
@@ -251,7 +251,7 @@ try {
   
       
       
-      
+  
       
     </table>
    <br>

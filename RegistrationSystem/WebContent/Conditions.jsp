@@ -15,6 +15,8 @@
 
 <h1>List of Conditions</h1>
 
+<h1 style="color:black;font-size:22px;">
+
 <%		
 
 Connection c = null;
