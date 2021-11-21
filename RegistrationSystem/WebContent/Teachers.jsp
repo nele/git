@@ -14,6 +14,7 @@
 <%@ page import="java.sql.Statement" %>   
 
 <h1>List of Genres</h1>
+<h3>Browse for books by genre!</h3>
 
 <h1 style="color:black;font-size:22px;">
 

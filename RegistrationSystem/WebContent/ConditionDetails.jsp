@@ -51,6 +51,7 @@ try {
                <td bgcolor=eeeeee><b>Author</b></td>
                <td bgcolor=eeeeee><b>Pages</b></td>
                <td bgcolor=eeeeee><b>Published date</b></td>
+               <td bgcolor=eeeeee><b>Summary</b></td>
              </tr> 
         <%
         
@@ -63,11 +64,14 @@ try {
               <td>
                 <%= resultSet.getString("Author") %>
               </td>	
-                            <td>
+              <td>
                 <%= resultSet.getString("Pages") %>
               </td>	
               <td>
                 <%= resultSet.getString("dateofpublication") %>
+              </td>	
+              <td>
+                <%= resultSet.getString("Summary") %>
               </td>	
               
             </tr>

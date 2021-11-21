@@ -14,7 +14,7 @@
 <%@ page import="java.sql.Statement" %>   
 
 <h1>List of Conditions</h1>
-
+<h3>Search for books in different condition!</h3>
 <h1 style="color:black;font-size:22px;">
 
 <%		
