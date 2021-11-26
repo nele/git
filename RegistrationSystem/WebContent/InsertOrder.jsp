@@ -73,7 +73,7 @@ try {
         while (resultSet.next()){
             %>
             <option value="<%= resultSet.getString("bookid") %>">
-            <%= resultSet.getString("Title")+" Author: "+resultSet.getString("Author") %>	
+            <%= "Title: " +resultSet.getString("Title")+" Author: "+resultSet.getString("Author") %>	
             </option>
         <% 		
         }
