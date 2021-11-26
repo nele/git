@@ -80,7 +80,7 @@ try {
         %> </table> 
         
         <br>
-        <a href="NewFile.html"><b>Back to the Main Menu</b></a>
+        <a href="index.html"><b>Back to the Main Menu</b></a>
         
         <%
        
