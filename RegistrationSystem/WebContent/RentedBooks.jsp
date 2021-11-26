@@ -13,7 +13,7 @@
 <%@ page import="java.sql.ResultSet" %>  
 <%@ page import="java.sql.Statement" %>   
 
-<h1>Recently Added Books
+<h1>Already Rented Books
 </h1>
 
 <%		

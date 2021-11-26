@@ -4,7 +4,7 @@
 <html>
 <head>
 
-<title>Insert A Book</title>
+<title>Insert A New Order</title>
 </head>
 <body>  
 
@@ -73,7 +73,7 @@ try {
         while (resultSet.next()){
             %>
             <option value="<%= resultSet.getString("bookid") %>">
-            <%= "Title: " +resultSet.getString("Title")+" Author: "+resultSet.getString("Author") %>	
+            <%= "Title: " +resultSet.getString("Title")+" Author: "+resultSet.getString("Author")%>	
             </option>
         <% 		
         }
