@@ -37,9 +37,9 @@
       </tr>
  
       </tr>
-         <td>Book
+         <td>Book<font color="red">*</font> 
         <td>
-        <select id="BookSelect" name="Title">
+        <select id="BookSelect" name="Title" required>
 
     
   <%		
