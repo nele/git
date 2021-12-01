@@ -33,7 +33,7 @@
  
               <tr>
         <td>Email<font color="red">*</font>   
-        <td><input type="text" name="E-mail" style="width:300px; height:100px" required></td>
+        <td><input type="text" name="E-mail" required></td>
       </tr>
  
       </tr>
